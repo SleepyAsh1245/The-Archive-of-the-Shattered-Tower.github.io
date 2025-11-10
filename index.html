@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>The Tower — Interactive Chapters</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <button id="voiceBtn">🔊 Play Voice</button>
+  <button id="skipBtn">Skip Animation</button>
+
+  <button class="theme-selector" id="themeBtn">🎨 Theme</button>
+<div class="theme-dropdown" id="themeDropdown">
+  <button data-theme="default">Default</button>
+  <button data-theme="red">Red</button>
+  <button data-theme="bubblegum">Bubblegum</button>
+  <button data-theme="midnight">Midnight</button>
+</div>
+
+
+  <header>
+    <div class="logo">CH. I</div>
+    <div>
+      <h1>The Archive of the Shattered Tower</h1>
+      <p class="lead">By: SA Oranyth</p>
+    </div>
+  </header>
+
+  <main class="panel">
+    <div id="story" class="text"></div>
+    <div id="tarotDisplay" class="hidden"></div>
+    <div id="choices" class="choices"></div>
+    <div id="chapterEnd" class="hidden">
+      <hr>
+      <div class="center">
+        <button class="big-btn" id="replayBtn">Replay Chapter</button>
+        <button class="big-btn small" id="cardsBtn">Inspect Tarot Cards</button>
+        <button class="big-btn small" id="placeholderBtn">Explore Vespera (Coming Soon)</button>
+      </div>
+      <p class="muted"><center>Note: Subsequent chapters are under construction.</center></p>
+      <p class="muted"><center>PS. Do not look for how you can jump from chapter I - IV as well as jumping to the previous chapters</center>
+      <p class="muted"><center>"You must follow every step to gain completion" and more importantly " past is past so , going back to it will only hurt so learn to let go". </center></p>
+    </div>
+  </main>
+
+  <footer>
+     All rights reserved © 2025 SA Oranyth
+  </footer>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
