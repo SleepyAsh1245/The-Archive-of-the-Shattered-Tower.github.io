@@ -1,21 +1,21 @@
 const chapters = {
   1: { title: "The Tower (XVI) – The Void", file: "chap1.txt", tarot: [
     { name: "The Tower (XVI)", interpretation: "Sudden change, upheaval, revelation." },
-    { name: "The Hanged Man (Reversed)", interpretation: "Delay, resistance, suspension." },
-    { name: "The Moon (Upright)", interpretation: "Illusion, intuition, subconscious." }
+    { name: "The Hanged Man (XII - Reversed)", interpretation: "Delay, resistance, suspension." },
+    { name: "The Moon (XVIII)", interpretation: "Illusion, intuition, subconscious." }
   ], nextChapter: 2 },
   2: { title: "The Hermit (IX) – The Gift of Knowledge", file: "chap2.txt", tarot: [
     { name: "The Tower (XVI)", interpretation: "Sudden change, upheaval, revelation." },
     { name: "The Tower (XVI - Reversed)", interpretation: "Collapse, awakening, necessary change." },
     { name: "The Hanged Man (XII - Reversed)", interpretation: "Delay, resistance, suspension." },
-    { name: "The Moon (Upright)", interpretation: "Illusion, intuition, subconscious." },
+    { name: "The Moon (XVIII)", interpretation: "Illusion, intuition, subconscious." },
     { name: "The Hermit (IX)", interpretation: "Soul-searching, introspection, guidance." },
   ], nextChapter: 3 ,prevChapter: 1 },
   3: { title: "The Empress (III) - The Genesis ", file: "chap3.txt", tarot: [
     { name: "The Tower (XVI)", interpretation: "Sudden change, upheaval, revelation." },
     { name: "The Tower (XVI - Reversed)", interpretation: "Collapse, awakening, necessary change." },
     { name: "The Hanged Man (XII - Reversed)", interpretation: "Delay, resistance, suspension." },
-    { name: "The Moon (Upright)", interpretation: "Illusion, intuition, subconscious." },
+    { name: "The Moon (XVIII)", interpretation: "Illusion, intuition, subconscious." },
     { name: "The Hermit (IX)", interpretation: "Soul-searching, introspection, guidance." },
     { name: "The Empress (III)", interpretation: "Creation, abundance, nurturing." },
   ] , nextChapter: 4 , prevChapter: 2 },
@@ -245,3 +245,4 @@ document.querySelectorAll('.theme-dropdown button').forEach(btn => {
 
 // Initial load
 loadChapter(current);
+
