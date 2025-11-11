@@ -20,7 +20,7 @@ const chapters = {
     { name: "The Empress (III)", interpretation: "Creation, abundance, nurturing." },
   ] , nextChapter: 4 , prevChapter: 2 },
   4: { title: "The Justice (XI) - The Reckoning", file: "chap4.txt", tarot: [
-    { name: "COMING SOON", interpretation: "(THE FATE OF THOSE WHO WAIT, SHALL NOT FALL FOR AN OBVIOUS FATE)\n--SA Oranyth" },
+    { name: "COMING SOON", interpretation: "(THE FATE OF THOSE WHO WAIT, SHALL NOT FALL FOR AN OBVIOUS BAIT)\n--SA Oranyth" },
   ] , prevChapter: 3 },  
 };
 
@@ -245,4 +245,5 @@ document.querySelectorAll('.theme-dropdown button').forEach(btn => {
 
 // Initial load
 loadChapter(current);
+
 
